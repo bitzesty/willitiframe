@@ -1,0 +1,8 @@
+<div class="span6">
+<h1>Will it iframe?</h1>
+
+<%= form_tag "/", :method => 'get', :class => "well form-search" do %>
+  <%= text_field_tag(:url, '', :type => "url", :'class' => "search-query") %>
+  <button type="submit" class="btn btn-primary">Search</button>
+  <% end %>
+</div>
